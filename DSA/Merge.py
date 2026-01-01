@@ -51,6 +51,5 @@ if __name__ == '__main__':
     array = list(map(int, input().split()))
 
     mergeSort(array)
-
     print("Sorted array is: ")
     printList(array)
