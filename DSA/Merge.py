@@ -48,7 +48,7 @@ def printList(array):
 
 # Driver program
 if __name__ == '__main__':
-    array = list(map(input().split, int))
+    array = list(map(int, input().split()))
 
     mergeSort(array)
 
